@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|Dosis&display=swap');
+
+html {min-height: 100%;}
+
+body {
+  color: #00072D;
+  font-family: 'Cutive Mono', sans-serif;
+  background: #11A49B;
+  background: -webkit-linear-gradient(45deg, #0c7f77, #73cc72);
+  background: linear-gradient(45deg, #0c7f77, #73cc72);
+}
+
+.hide {
+  display: none;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  background: linear-gradient(90deg, #000f66, #0026ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Cutive Mono', sans-serif;
+  background: linear-gradient(90deg, #000f66, #0026ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: 6vw;
+  margin: 0.3em 25%;
+  background-color: rgba(255,255,255,0.25);
+  font-family: 'Cutive Mono', sans-serif;
+  border-radius: 0.3em;
+  border: 3px solid #00072D;
+  box-shadow: 0 8px 16px 0 rgba(0,11,76,0.4), 0 6px 20px 0 rgba(0,11,76,0.4);
+  padding: 0.4em 0;
+  transition: .1s;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5), 0 17px 50px 0 rgba(0,0,0,0.4);
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
+
+.rewindButton {
+  width: 25%;
+  margin: 0.3em 37.5%;
+}
+
+.score {
+  font-size: 5em;
+  font-weight: 900;
+  text-align: center;
+}
+.play {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+}
+.computer {
+  display: inline;
+  color: #660000;
+}
+.player {
+  display: inline;
+  color: #000f66;
+}
+.dash {
+  display: inline;
+  color: black;
+}
